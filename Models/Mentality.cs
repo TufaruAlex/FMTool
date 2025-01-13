@@ -2,5 +2,7 @@ public enum Mentality
 {
     Defense,
     Support,
-    Attack
+    Attack,
+    Stopper,
+    Cover
 }

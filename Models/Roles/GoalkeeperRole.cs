@@ -19,7 +19,7 @@
                 score += player.Decisions;
                 score += player.Positioning * 2;
                 score += player.Agility * 2;
-                return score / 13;
+                return score / 22;
             }
             throw new NotSupportedException("This mentality is not supported for this role.");
         }
